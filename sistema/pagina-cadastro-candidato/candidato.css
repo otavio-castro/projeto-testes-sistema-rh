@@ -1,0 +1,182 @@
+/*Inicio - Configuração Header*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="rgba%28255, 255, 255, 1%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.header a{
+    letter-spacing: 3px ;
+    margin-left: 32px ;
+}
+
+#cadastro {
+    color: black ;
+    background-color: white ;
+}
+
+#entrar {
+    background-color: black ;
+    color: white ;
+}
+
+#meuPerfil {
+    background-color: black ;
+    color: white ;
+}
+
+footer p{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.centro {
+    margin: 0 auto;
+    display: flex;
+}
+
+#linkMenu>a {
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container-fluid> :first-child {
+    font-size: 25px;
+}
+
+/*Fim - Configuração Header*/
+
+/*Inicio - Configuração Form*/
+.cadastrar {
+    margin-right: 20px;
+}
+
+.container-form {
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+.titulo {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subTitulo {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.caixa {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#btn {
+    font-weight: bold;
+}
+
+.form-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #198754;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Inicio Configuração Footer*/
+footer {
+    text-align: center;
+    padding: 2px;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    position: fixed;
+}
+
+footer p {
+    letter-spacing: 3px;
+    margin: 0; /* Remover a margem à esquerda */
+    width: 100%; /* Garante que o parágrafo ocupe toda a largura */
+}
+
+@media screen and (max-width: 600px) {
+    .container-form {
+        max-width: 350px;
+        margin: 50% auto;
+    }
+
+    .caixa {
+        width: 100%;
+        height: 100%;
+    }
+
+    header a {
+        width: max-content;
+    }
+
+    #cadastro {
+        color:  white;
+        background-color: transparent;
+    }
+
+    #entrar {
+        background-color: transparent;
+        color:  white;
+    }
+
+    #meuPerfil {
+        background-color: transparent;
+        color: white;
+    }
+
+    #sair{
+        background-color: transparent !important;
+        color:  white !important;
+    }
+
+    #meuPerfil{
+        background-color: transparent !important;
+        color: white !important;
+    }
+}

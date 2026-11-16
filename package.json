@@ -1,0 +1,17 @@
+{
+  "name": "projeto-testes-sistema-rh",
+  "version": "1.0.0",
+  "description": "Projeto de Testes do TI Sistema de RH (Me Contrate) - Teste e Manutenção de Software, PUC Minas",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest --selectProjects unitarios --verbose",
+    "test:selenium": "jest --selectProjects selenium --runInBand --verbose",
+    "test:refatoracao": "jest --selectProjects refatoracao --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "selenium-webdriver": "^4.52.0"
+  }
+}
